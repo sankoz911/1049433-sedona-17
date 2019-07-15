@@ -1,6 +1,6 @@
 # Личный проект «Седона» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
-* Студент: [Александр Козлов](https://up.htmlacademy.ru/adaptive/17/user/1049433). =)
+* Студент: [Александр Козлов](https://up.htmlacademy.ru/adaptive/17/user/1049433).
 * Наставник: [Гоша Егорян](https://htmlacademy.ru/profile/id85633).
 
 
