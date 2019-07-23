@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Седона</title>
+  </head>
+  <body>
+    <header class="page-header">
+      <nav class="main-nav">
+        <div class="main-nav__wrapper">
+          <ul class="main-nav__list site-list">
+            <li class="site-list__item site-list__item--active">
+              <a>ГЛАВНАЯ</a>
+            </li>
+            <li class="site-list__item">
+              <a href="photo.html">фОТО И ВИДЕО</a>
+            </li>
+            <li class="site-list__item">
+              <a href="form.html">ФОРМА ОТЗЫВА</a>
+            </li>
+            <li class="site-list__item">
+              <a href="#">HTML AKADEMY</a>
+            </li>
+          </ul>
+        </div>
+        <button class="main-nav__toggle" type="button">Открыть меню</button>
+      </nav>
+    </header>
+    <main class="">
+      <section class="feedback_form">
+        <p> <strong>ОСТАВЬТЕ СВОЙ ОТЗЫВ</strong> </p>
+        <p>ПОМОГИТЕ НАШИМ ОТЕЛЯМ СТАТЬ ЛУЧШЕ! СОТАВЬТЕ ОТЗЫВ О НИХ, А ТАК ЖЕ О ПОСЕЩЕННЫХ ВАМИ ДОСТОПРИМЕЧАТЕЛЬНОСТЯХ</p>
+
+        <form class="" action="index.html" method="post">
+
+            <legend><strong>ПРЕДСТАВЬТЕСЬ:</strong></legend>
+            <p class="">
+              <label>ИМЯ*:</label>
+              <input type="text" name="name" value="" placeholder="Петр">
+            </p>
+            <p class="">
+              <label>ФАМИЛИЯ*:</label>
+              <input type="text" name="name" value="" placeholder="Иванов">
+            </p>
+            <p class="">
+              <label>ОТЧЕСТВО:</label>
+              <input type="text" name="name" value="" placeholder="Александрович">
+            </p>
+
+            <legend> <strong>КОНТАКТНАЯ ИНФОРМАЦИЯ:</strong> </legend>
+            <p class="">
+              <label>КОНТАКТНЫЙ ТЕЛЕФОН*:</label>
+              <input type="" name="name" value="" placeholder="Введите телефон">
+            </p>
+            <p class="">
+              <label>ЭЛЕКТРОННАЯ ПОЧТА*:</label>
+              <input type="" name="name" value="" placeholder="Введите e-mail">
+            </p>
+
+            <div class="">
+              <legend> <strong> ВАШЕ ОБЩЕЕ ВПЕЧАТЛЕНИЕ:</strong></legend>
+              <label><input name="grade" type="radio" value="">Скорее положительное</label>
+              <label><input name="grade" type="radio" value="">Скорее отрицательное</label>
+              <label><input name="grade" type="radio" value="">Затрудняюсь ответить</label>
+            </div>
+
+            <div class="">
+              <legend> <strong> ПОСЕЩЕННЫЕ ДОСТОПРИМЕЧАТЕЛЬНОСТИ:</strong></legend>
+              <label><input type="checkbox" name="place" value="">Мост дьявола</label>
+              <label><input type="checkbox" name="place" value="">Гора-Колокол</label>
+              <label><input type="checkbox" name="place" value="">Слайд-парк</label>
+              <label><input type="checkbox" name="place" value="">Красные-скалы</label>
+            </div>
+
+            <div class="">
+              <p class="">
+                <label>ОПИШИТЕ СВОИ ЭМОЦИИ:</label><br>
+                <textarea name="comment" cols="50" rows="8" placeholder="Опишите подробно все свои восторги"></textarea>
+              </p>
+            </div>
+
+            <p class="submit">
+              <input type="submit" value="ОТПРАВИТЬ ОТЗЫВ" />
+            </p>
+
+        </form>
+      </section>
+    </main>
+
+    <footer class="">
+        <section class="">
+          <div class="social-networks">
+              <p class="networks-hashtag"><strong>#VISITSEDONA</strong></p>
+              <ul class=networks-icon>
+                 <li class="icon-button"><a href="twitter.com"><img src="#"  alt="логотип твиттер" ></a></li>
+                 <li class="icon-button"><a href="fb.com"><img src="#" alt="логотип фейсбук" ></a></li>
+                 <li class="icon-button"><a href="youtub.com"><img src="#" alt="логотип ютуб" ></a></li>
+             </ul>
+         </div>
+         <p class="developer"> РАЗРАБОТАНО </p>
+        </section>
+    </footer>
+  </body>
+</html>
